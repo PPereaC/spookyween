@@ -1,0 +1,24 @@
+/* Reset y variables base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #FFF;
+    --secondary-color: #ff6b35;
+    --accent-color: #9c27b0;
+    --text-color: #ffffff;
+    --text-secondary: #cccccc;
+    --shadow-color: rgba(255, 107, 53, 0.3);
+    --transition: all 0.3s ease;
+    --background-color: #000000;
+}
+
+body {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    color: var(--text-color);
+    line-height: 1.6;
+    background-color: var(--background-color);
+}

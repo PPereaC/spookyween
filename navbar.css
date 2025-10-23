@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Eater';
+    src: url('../fonts/Eater-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nosifer';
+    src: url('../fonts/Nosifer-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: italic;
+}
+
+header {
+    background-color: var(--background-color);
+}
+
+.navbar-container {
+    margin: auto;
+    width: 1296px;
+    height: 77.9167px;
+    background-color: var(--background-color);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 93.91px;
+    padding-left: auto;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.logo {
+    width: 239.94px;
+    height: 67.91px;
+    transition: var(--transition);
+}
+
+.logo:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.navbar-menu {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    align-items: center;
+}
+
+.nav-link {
+    font-family: 'Nosifer', cursive;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover {
+    color: var(--secondary-color);
+}
+
+.nav-link.active {
+    color: var(--secondary-color);
+    background: rgba(255, 107, 53, 0.1);
+    box-shadow: 0 0 20px var(--shadow-color);
+}
+
+.navbar-button {
+    padding: 0.5rem 0.7rem;
+    border-radius: 50px;
+    font-family: 'Nosifer', cursive;
+    font-size: 14px;
+    color: var(--secondary-color);
+    background-color: transparent;
+    border-color: var(--secondary-color);
+}
+
+.navbar-button:hover {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
