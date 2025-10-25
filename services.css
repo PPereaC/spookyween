@@ -1,12 +1,11 @@
-.about-container {
+.services-container {
     position: relative;
     justify-content: center;
     align-items: center;
     background-color: var(--about-section-bg);
-
 }
 
-.about-title {
+.services-title {
     display: grid;
     padding-top: 75px;
     padding-bottom: 40px;
