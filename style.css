@@ -1,13 +1,6 @@
-/* Reset y variables base */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 :root {
     --primary-color: #FFF;
-    --secondary-color: #ff6b35;
+    --secondary-color: #ff5003;
     --accent-color: #9c27b0;
     --text-color: #ffffff;
     --text-secondary: #cccccc;
