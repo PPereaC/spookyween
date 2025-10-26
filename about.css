@@ -1,0 +1,47 @@
+.about-container {
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.about-image-container {
+    padding-left: 35px;
+    padding: 0;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin: auto;
+}
+
+.about-subtitle {
+    font-family: 'Nosifer', cursive;
+    color: var(--primary-color);
+    margin-bottom: -0.3rem;
+}
+
+.about-subtitle-color-text {
+    font-family: 'Nosifer', cursive;
+    color: var(--secondary-color);
+}
+
+.about-description {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-color);
+    max-width: 550px;
+}
+
+.click-here-button {
+    margin-top: 0.4rem;
+    font-family: "Nosifer", cursive;
+    font-size: 14px;
+    padding: 0.5rem 0.9rem;
+    border-radius: 50px;
+    background-color: var(--secondary-color);
+    color: white;
+    border-color: transparent;
+    width: 150px;
+}
