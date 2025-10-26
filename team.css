@@ -1,0 +1,39 @@
+.team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    background-image: url('../images/moon-night-bg.png');
+    background-size: cover;
+    height: 700px;
+}
+
+.team-grid {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    aspect-ratio: 3/4;
+    max-width: 1320px;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.team-card {
+    width: 25%;
+    padding: 0.5rem;
+    border: 1px solid var(--secondary-color);
+    height: fit-content;
+
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+        display: block;
+    }
+
+}
+
+.team-title-container {
+    padding-bottom: 30px;
+}
