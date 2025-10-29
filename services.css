@@ -7,10 +7,19 @@
 
 .services-title {
     display: grid;
-    padding-top: 75px;
-    padding-bottom: 40px;
+    padding-top: 25px;
+    padding-bottom: 100px;
     justify-items: center;
     height: 88px;
+
+    h2 {
+        margin-bottom: 10px;
+    }
+
+    img {
+        margin-top: 0;
+    }
+
 }
 
 .text-flicker {
