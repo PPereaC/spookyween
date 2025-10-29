@@ -1,27 +1,27 @@
 @font-face {
     font-family: 'Eater';
-    src: url('../fonts/Eater-Regular.ttf') format('truetype');
+    src: url('fonts/Eater-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Nosifer';
-    src: url('../fonts/Nosifer-Regular.ttf') format('truetype');
+    src: url('fonts/Nosifer-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('../fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+    src: url('fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
     font-weight: 100 900;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('../fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf') format('truetype');
+    src: url('fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf') format('truetype');
     font-weight: 100 900;
     font-style: italic;
 }
