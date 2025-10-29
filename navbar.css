@@ -27,14 +27,14 @@
 }
 
 header {
-    background-color: var(--background-color);
+    background-color: transparent;
 }
 
 .navbar-container {
     margin: auto;
     width: 1296px;
     height: 77.9167px;
-    background-color: var(--background-color);
+    background-color: transparent;
 }
 
 .navbar {
