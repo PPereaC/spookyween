@@ -1,0 +1,81 @@
+.team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../images/moon-night-bg.png');
+    background-size: cover;
+    height: 740px;
+}
+
+.team-title-container {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+        margin-bottom: 5px;
+    }
+}
+
+.team-grid {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    max-width: 1320px;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+}
+
+.team-card {
+    position: relative;
+    width: 25%;
+    padding: 0.5rem;
+    border: 1px solid var(--secondary-color);
+    height: fit-content;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+        display: block;
+    }
+}
+
+.team-member-info {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    right: 8px;
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 0.8rem;
+    transform: translateY(100%);
+    opacity: 0;
+    transition: all 0.3s ease;
+    text-align: center;
+    text-transform: uppercase;
+
+    h3 {
+        margin: 0 0 0.2rem 0;
+        font-family: "Nosifer", cursive;
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    p {
+        margin: 0;
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+    }
+}
+
+.team-card:hover {
+    .team-member-info {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
